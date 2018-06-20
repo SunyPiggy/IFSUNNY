@@ -15,23 +15,11 @@ Route::group('api',function (){
     Route::group('v1',function (){
         Route::bind('index');
         Route::resource('cat','Index');
-
-
-
-
-
-
-
-
     });
     Route::group('v2',function (){
-
-
-
 
     });
     Route::miss(function (){
         echo 133;
     });
 });
-
